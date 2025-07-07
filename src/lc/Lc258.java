@@ -20,9 +20,9 @@ public class Lc258 {
                 sum += num % 10; // Add the last digit
                 num /= 10;       // Remove the last digit
             }
-,l
+
             // Replace num with the sum of its digits
-            num = sum;,
+            num = sum;
         }
 
         return num;
